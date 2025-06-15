@@ -7,7 +7,7 @@ const ProjectCard = ({ project }) => {
       <div className="p-4">
         <h3 className="text-xl font-bold mb-2 text-white">{project.title}</h3>
         <p className="text-gray-300 mb-4">{project.description}</p>
-        <a href={project.link} className="text-blue-400 hover:text-blue-300">Ver Proyecto</a>
+        <a href={project.link} className="text-blue-400 hover:text-blue-300">View Project</a>
       </div>
     </div>
   );
