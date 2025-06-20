@@ -29,11 +29,11 @@ const TechStack = () => {
   ];
 
   return (
-    <section className="py-16">
+    <section className="pt-6 pb-16">
       <div className="container mx-auto px-4">
         <h2 className="text-3xl font-bold text-center mb-8 text-white">My Tech Stack</h2>
-        <p className="text-lg text-center max-w-2xl mx-auto text-white">
-        Technologies I’ve been working with recently.
+        <p className="text-lg text-center max-w-2xl mx-auto text-gray-300">
+        Technologies I've been working with recently.
         </p>
         <br />
         <div className="grid grid-cols-2 md:grid-cols-4 gap-4">

@@ -13,7 +13,7 @@ const Projects = () => {
       link: 'https://colab.research.google.com/drive/1JaX8__AiwfSMf0NeWM2wpyZEDUDfyYk1#scrollTo=jA3KSpXUK1iY'
     },
     {
-      title: 'Agente inteligente que transcribe rutinas a texto',
+      title: 'Agente inteligente que transcribe imagenes de rutinas a texto',
       description: 'Creacion de un agente inteligente que al pasarle imagenes de actividades saludables en la mañana, te describe la rutina que le proporcionaste de acuerdo a las imagenes',
       image: agenteInteligente,
       link: 'https://colab.research.google.com/drive/10NRLnBtCnDix_pHrvaExu8Y9Z2clwyS_'

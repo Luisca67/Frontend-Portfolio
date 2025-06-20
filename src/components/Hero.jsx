@@ -3,7 +3,7 @@ import profilePicture from '../assets/Profile-picture.jpeg';
 
 const Hero = () => {
   return (
-    <section className="relative h-screen flex items-center justify-center bg-transparent">
+    <section className="relative min-h-[65vh] flex items-center justify-center bg-transparent">
       {/* Botón Download CV */}
       <a
         href="https://drive.google.com/file/d/1Q9clxStY_S0QMrfFeEQ8gm4jlteV00BK/view?usp=drive_link" // Cambia esto por el enlace real de tu CV
