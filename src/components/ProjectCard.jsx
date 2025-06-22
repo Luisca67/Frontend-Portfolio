@@ -57,7 +57,7 @@ const ProjectCard = ({ project }) => {
           ))}
         </div>
         {project.github_url && (
-          <a href={project.github_url} target="_blank" rel="noopener noreferrer" className="text-blue-400 hover:text-blue-300 mr-4">GitHub</a>
+          <a href={project.github_url} target="_blank" rel="noopener noreferrer" className="text-blue-400 hover:text-blue-300 mr-4">Code</a>
         )}
         {project.live_url && (
           <a href={project.live_url} target="_blank" rel="noopener noreferrer" className="text-green-400 hover:text-green-300">Live</a>

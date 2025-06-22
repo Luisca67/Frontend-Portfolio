@@ -1,5 +1,7 @@
 import React from 'react';
 import profilePicture from '../assets/Profile-picture.jpeg';
+import linkedinIcon from '../assets/linkedin.svg';
+import githubIcon from '../assets/github-gray.svg';
 
 const Hero = () => {
   return (
@@ -27,6 +29,40 @@ const Hero = () => {
           <h3 className="text-2xl md:text-3xl font-semibold text-gray-200 mb-6">
             I build things for web
           </h3>
+          
+          {/* Redes Sociales */}
+          <div className="flex items-center gap-4 mb-6">
+            <a
+              href="https://www.linkedin.com/in/luis-cabrera-0944092aa/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center gap-2 bg-white bg-opacity-10 px-4 py-2 rounded-lg hover:bg-opacity-20 transition-all duration-300 backdrop-blur-sm"
+            >
+              <img src={linkedinIcon} alt="LinkedIn" className="w-5 h-5" />
+              <span className="text-white font-medium">LinkedIn</span>
+            </a>
+            
+            <a
+              href="mailto:cabrerasluis67@gmail.com"
+              className="flex items-center gap-2 bg-white bg-opacity-10 px-4 py-2 rounded-lg hover:bg-opacity-20 transition-all duration-300 backdrop-blur-sm"
+            >
+              <svg className="w-5 h-5 text-white" fill="currentColor" viewBox="0 0 20 20">
+                <path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z" />
+                <path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z" />
+              </svg>
+              <span className="text-white font-medium">Gmail</span>
+            </a>
+            
+            <a
+              href="https://github.com/Luisca67"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center gap-2 bg-white bg-opacity-10 px-4 py-2 rounded-lg hover:bg-opacity-20 transition-all duration-300 backdrop-blur-sm"
+            >
+              <img src={githubIcon} alt="GitHub" className="w-5 h-5" />
+              <span className="text-white font-medium">GitHub</span>
+            </a>
+          </div>
         </div>
         {/* Foto de perfil a la derecha */}
         <div className="flex-1 flex justify-center md:justify-end items-center mt-12 md:mt-0">

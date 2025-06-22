@@ -8,7 +8,7 @@ const projects = [
   {
     id: 1,
     title: 'Chatbot Xyra',
-    description: 'Chatbot que responde preguntas en base al documento que le proporciones. Actualmente en uso por la UNEG de Chilemex',
+    description: 'Chatbot that answers questions based on the document you provide. Currently in use by UNEG Chilemex',
     image: chatbotXyra,
     github_url: 'https://colab.research.google.com/drive/1JaX8__AiwfSMf0NeWM2wpyZEDUDfyYk1#scrollTo=jA3KSpXUK1iY',
     live_url: null,
@@ -16,8 +16,8 @@ const projects = [
   },
   {
     id: 2,
-    title: 'Agente inteligente que transcribe imagenes de rutinas a texto',
-    description: 'Creación de un agente inteligente que al pasarle imágenes de actividades saludables en la mañana, te describe la rutina que le proporcionaste de acuerdo a las imágenes',
+    title: 'Intelligent agent that transcribes routine images into text',
+    description: 'Creation of an intelligent agent that, when you show it images of healthy morning activities, describes the routine you provided based on the images.',
     image: agenteInteligente,
     github_url: 'https://colab.research.google.com/drive/10NRLnBtCnDix_pHrvaExu8Y9Z2clwyS_',
     live_url: null,
@@ -25,8 +25,8 @@ const projects = [
   },
   {
     id: 3,
-    title: 'Plataforma web para la UNEG',
-    description: 'Plataforma web para que los estudiantes puedan subir sus proyectos y les sirva como portafolio. Además, los profesores pueden enviar evaluaciones y corregirlas desde ahí',
+    title: 'Web platform for UNEG',
+    description: 'A web platform where students can upload their projects and use it as a portfolio. Teachers can also submit and grade assessments from there.',
     image: plataformaWeb,
     github_url: 'https://github.com/Desarrollo-Web-UNEG/projects-app-backend',
     live_url: 'https://projects-app-frontend.onrender.com/',
