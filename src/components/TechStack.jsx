@@ -10,7 +10,7 @@ import postgresql from '../assets/tech/postgresql.svg';
 import python from '../assets/tech/python.svg';
 import postman from '../assets/tech/postman.svg';
 import mariadb from '../assets/tech/mariadb.svg';
-import vscode from '../assets/tech/vscode.svg';
+import nestjs from '../assets/tech/nestjs.svg';
 
 const TechStack = () => {
   const techs = [
@@ -25,7 +25,7 @@ const TechStack = () => {
     { name: 'Python', logo: python },
     { name: 'Postman', logo: postman },
     { name: 'MariaDB', logo: mariadb },
-    { name: 'VSCode', logo: vscode }
+    { name: 'NestJS', logo: nestjs }
   ];
 
   return (

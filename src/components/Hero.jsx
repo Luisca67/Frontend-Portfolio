@@ -8,13 +8,12 @@ const Hero = () => {
     <section className="relative min-h-[65vh] flex items-center justify-center bg-transparent">
       {/* Botón Download CV */}
       <a
-        href="https://drive.google.com/file/d/1Q9clxStY_S0QMrfFeEQ8gm4jlteV00BK/view?usp=drive_link" // Cambia esto por el enlace real de tu CV
+        href="https://drive.google.com/file/d/1_48i4IrjL-wyu7LRXCHt62fdPBiCdpFk/view?usp=drive_link" 
         className="absolute top-8 left-8 bg-[#3C3A6E] text-white font-semibold px-6 py-2 rounded-lg shadow-md hover:bg-[#5B57A6] transition-colors text-sm"
       >
         Download CV
       </a>
       <div className="container mx-auto flex flex-col md:flex-row items-center justify-between h-full px-4 md:px-16">
-        {/* Texto a la izquierda */}
         <div className="flex-1 flex flex-col justify-center items-start text-left mt-24 md:mt-0">
           <h2 className="text-3xl md:text-4xl font-bold text-white mb-2 flex items-center gap-2">
             Hi <span className="text-2xl">👋</span>,

@@ -1,7 +1,4 @@
 import React from 'react';
-import chatbotXyra from '../assets/Chatbot-Xyra.jpeg';
-import agenteInteligente from '../assets/Agente-inteligente.jpeg';
-import plataformaWeb from '../assets/Plataforma-web-UNEG.jpeg';
 import defaultImage from '../assets/image-projects.png';
 import html from '../assets/tech/html.svg';
 import css from '../assets/tech/css.svg';
@@ -16,12 +13,6 @@ import postman from '../assets/tech/postman.svg';
 import mariadb from '../assets/tech/mariadb.svg';
 import vscode from '../assets/tech/vscode.svg';
 import nestjs from '../assets/tech/nestjs.svg';
-
-const imageMap = {
-  'Chatbot Xyra': chatbotXyra,
-  'Agente inteligente que transcribe imagenes de rutinas a texto': agenteInteligente,
-  'Plataforma web para la UNEG': plataformaWeb,
-};
 
 const techIcons = {
   'HTML5': html,
@@ -40,8 +31,8 @@ const techIcons = {
 };
 
 const ProjectCard = ({ project }) => {
-  // Selecciona la imagen según el título, o usa la imagen por defecto
-  const image = imageMap[project.title] || defaultImage;
+  // Usa la imagen que viene directamente del proyecto, o la imagen por defecto
+  const image = project.image || defaultImage;
 
   return (
     <div className="bg-white bg-opacity-10 rounded-lg shadow-lg overflow-hidden backdrop-blur-sm">

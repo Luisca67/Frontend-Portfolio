@@ -29,7 +29,7 @@ const projects = [
     description: 'A web platform where students can upload their projects and use it as a portfolio. Teachers can also submit and grade assessments from there.',
     image: plataformaWeb,
     github_url: 'https://github.com/Desarrollo-Web-UNEG/projects-app-backend',
-    live_url: 'https://projects-app-frontend.onrender.com/',
+    live_url: null,
     technologies: ['NestJS', 'PostgreSQL', 'Git', 'GitHub', 'VS Code', 'Postman', 'JavaScript', 'Node.js'],
   },
 ];
