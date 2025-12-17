@@ -8,7 +8,7 @@ const Hero = () => {
     <section className="relative min-h-[65vh] flex items-center justify-center bg-transparent">
       {/* Botón Download CV */}
       <a
-        href="https://drive.google.com/file/d/1_48i4IrjL-wyu7LRXCHt62fdPBiCdpFk/view?usp=drive_link" 
+        href="https://drive.google.com/file/d/1_48i4IrjL-wyu7LRXCHt62fdPBiCdpFk/view?usp=sharing" 
         className="absolute top-8 left-8 bg-[#3C3A6E] text-white font-semibold px-6 py-2 rounded-lg shadow-md hover:bg-[#5B57A6] transition-colors text-sm"
       >
         Download CV
